@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Myriad+Pro');
+
+/*---resets-- */
+
+.main-content {
+    margin: 0 !important;
+}
+
+.main-container {
+    width: 100% !important;
+    padding: 0 !important;
+    max-width: none !important;
+}
+
+.col-sm-12 {
+    padding: 0 !important;
+}
+
+.container {
+    margin: 0 auto !important;
+}
+
+/*---block text---*/
+.block-text span {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: bold;
+}
+
+.block-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .7);
+  line-height: 30px;
+  padding: 15px 0 0 15px;
+  height: 70px;
+}
+
+.block-text-first {
+    width: 565.5px;
+}
+
+.block-text-second {
+    width: 395px;
+}
+
+.block-text-third {
+    width: 610px;
+}
+
+.block-text-fourth {
+    width: 409.5px;
+}
+
+/*colors*/
+.white {
+    background-color: #fff;
+}
+
+.white-text, h1, h2, h3, p {
+    color: #fff
+}
+
+.black {
+    background-color: #000;
+    min-height: 50px;
+}
+ 
+.purple {
+    background-color: #666699;
+}
+
+.lavender {
+    background-color: lavender;
+}
+
+.blue {
+    background-color: #3fa9f5;
+}
+
+.sky-blue {
+    background-color: #e8f6ff;
+    height: 546.5px;
+    background-image: url(img/map-background.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+
+/*---fonts---*/
+
+#espanol, #find-out h3, #faqs h2 {
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+
+
+.find-a-provider-box {
+  text-transform: uppercase;
+  width: 173px;
+  height: 49.5px;
+  font-family: Open Sans;
+  font-size: 12.8px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  background-color: #3fa9f5;
+  border: 2px solid #fff;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.find-a-provider-padding {
+    padding: 10px 0;
+}
+
+.find-a-provider-link {
+    color: #fff;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 16.8px;
+    padding: 10px;
+    font-style: normal;
+}
+
+.find-a-provider a:hover {
+    text-decoration: none;
+}
+
+#espanol {
+    color: #ffffff;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+}
+
+#hero {
+    height: 561px;
+    background-color: #555;
+    margin-bottom: 30px;
+    margin-top: -80px;
+    background-image: url(img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sub-hero {
+    padding-bottom: 40px;
+    margin: 0 20px;
+}
+
+#sub-hero-text {
+    max-width: 800px;
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+#sub-hero-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38.5px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+#sub-hero-text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 68.8px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+#find-out, #get-started, #sub-hero {
+}
+
+#find-out, #get-started, #sub-hero, #faqs {
+    padding: 30px 0;
+}
+
+#find-out {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+#questions {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#faqs h3 {
+    line-height: 25px;
+    padding: 10px;;
+}
+
+#faqs h2 {
+    text-align: center;
+    color: #000
+}
+
+#faqs h4 {
+    text-align: center
+}
+
+#get-started {
+  padding-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 43.8px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666699;
+  color: var(--slate-blue);
+}
+
+#find-out button {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#hero-text {
+    margin-left: 90px;
+    margin-top: 152px;
+    padding-top: 100px;
+}
+
+#side-button {
+    position: absolute;
+    right: -30px;
+    transform: rotate(-90deg);
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 5px 5px 0 0;
+    padding: 7px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#contact {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#contact-menu {
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 50px;
+    list-style-type: none;
+}
+
+#contact-menu a {
+    color: #fff;
+    display: inline-block;
+    max-width: 150px;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.col-md-3.hidden-sm.hidden-xs {
+    max-width: 3.5em;
+}
+
+#pointer {
+    margin-right: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.email-btn {
+    max-width: 130%;
+}
+
+@media screen and (max-width: 960px) {
+    #get-started {
+        margin-left: 0px;
+    }
+    #find-out, #sub-hero {
+        margin-left: 10px;
+    }
+    
+    .pill-img {
+        max-width: 19em;
+        margin-top: 50px;
+    }
+}
+
+.right-for-you {
+    font-size: 37.5px;
+    font-family: 'Myriad Pro', sans-serif;
+    margin-right: 50px;
+    color: #fff;
+}
+
+.faq-header {
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.faq-sub-header {
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 37.5px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.faq-section {
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.faq-section p {
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 25px;
+  color: #000;
+  margin: 0 85px;
+  line-height: 1;
+}
+
+/* toggle accordian */
+.faq-accordion-handle{
+    cursor: pointer;
+}
+
+.faq-section p {
+    display: none;
+}
+
+.faq-accordion-handle:active ~ .faq-section {
+    display: block;
+}
+
+.faq-section p a {
+    color: #3fa9f5;
+}
+
+.still-questions {
+  margin-top: 80px;
+  font-family: 'MyriadPro-It', sans-serif;
+  font-size: 25px;
+  color: #000;
+}
+
+.still-questions a {
+    margin-right: 20px;
+}
+
+.still-questions img {
+    height: 60px;
+}
+
+
+.get-started {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 43.8px;
+    font-weight: 300;
+    color: #666699;
+    margin: 40px 0;
+    text-align: left;
+   
+}
+
+
+
+.col-md-3.hidden-sm.hidden-xs img{
+    padding-right: 1em;
+    margin: 0; 
+}
+.col-md-9 .col-sm-12 .col-xs-12 .find-text{
+    padding-left: 1em;
+    margin: 0;
+}
+
+#contact h3 {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+#contact p {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 37.5px;
+}
+
+.contact-method {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  margin: 50px 0px;
+  
+}
+
+.contact-method a {
+    color: #fff;
+}
+
+.contact-method-box {
+    height: 160px;
+    white-space: nowrap;
+    max-width: 90%;
+}
+
+.contact-method-box img {
+    vertical-align: middle;
+    height: 151px;
+}
+
+.pill-img {
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 460px) {
+
+    .region-content {
+        margin: 0 !important;
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #hero {
+        height: 400px;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    .find-a-provider-box {
+        width: 130px;
+        height: 36px;
+    }
+
+    .find-a-provider-padding {
+        padding: 5px 0 0 0;
+    }
+
+    .find-a-provider-link {
+        font-size: 12px;
+    }
+
+    #find-out, #sub-hero {
+        margin-left: 10px;
+    }
+
+    #hero-text {
+        margin-left: 20px;
+        margin-top: 0;
+        padding-top: 220px;
+    }
+
+    .block-text {
+        font-size: 14px;
+        height: 32px;
+        padding: 0 0 0 8px;
+    }
+
+    .block-text-first {
+        width: 220px;
+    }
+
+    .block-text-second {
+        width: 150px;
+    }
+
+    .block-text-third {
+        width: 220px;
+    }
+
+    .block-text-fourth {
+        width: 140px;
+    }
+
+    #sub-hero {
+        padding: 0 30px 20px 0;
+    }
+
+    #sub-hero-text h1 {
+        font-size: 18px;
+    }
+
+    #sub-hero-text p {
+        font-size: 12px;
+    }
+
+    .pill-img {
+        max-width: 10em;
+        margin-top: 30px;
+    }
+
+
+    .right-for-you {
+        text-align: center;
+        font-size: 16px;
+        margin: 0em auto 1em;
+    }
+
+    .sky-blue {
+        height: 300px;
+    }
+
+    #get-started {
+        padding-top: 0;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .get-started {
+        font-size: 13px;
+        margin: 20px 0;
+    }
+
+    .find-text {
+        line-height: 0.5;
+    }
+
+    .faq-header {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .faq-sub-header {
+        font-size: 20px;
+    }
+
+    .faq-section p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .still-questions {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .still-questions img {
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    #contact h3 {
+        font-size: 24px;
+    }
+
+    #contact-menu {
+        padding: 0%;
+        
+    }
+
+    #contact p {
+        font-size: 18px;
+    }
+
+    .contact-method-box {
+        height: 50px;
+        text-align: center;
+        padding: 0%;
+    }
+
+    .contact-method-box img {
+        height: 50px;
+    }
+
+    .contact-method a {
+        font-size: 12px;
+    }
+
+    .col-xs-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
